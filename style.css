@@ -1,0 +1,313 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, 
+a, img,  ul, li,
+ footer, header, 
+menu, nav, section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+ menu, nav, section {
+	display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline-color: 0;
+}
+body {
+    line-height: 1;
+background: #dadfeb;}
+ ul {
+	list-style: none;
+}
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: table;
+}
+.clearfix:after {
+ clear: both;
+}
+
+.left{float:left;}
+.right{float: right;}
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+
+#wrapper{
+        max-width: 1500px;}
+    .container{
+        max-width: 980px;
+        margin: 0 auto;
+    }
+#header{
+    width: 100%;
+     background: linear-gradient(to top, #ecf1fd, #c6cfe4 );    
+       }
+       .logo{
+           margin: 15px 0 15px 0;
+       }
+       span.logo{
+           font: 45px Arial;
+           font-weight: bold;
+           color: #39579b;
+       }
+       .lgsmall{
+           font: 14px Arial;
+           color: #3d5ba4;
+       }
+       .header-link{
+           margin-top: 35px;
+       }
+          .header-link li {
+                float:left;
+       }
+       .header-link li a{
+           display: block;
+           font: 13px Arial;
+            font-weight: bold;
+            color: #2f57a1;
+           padding: 6px 15px;
+       
+       }
+       .header-link li a:hover{
+           color: black;
+            background: linear-gradient(to top, #c8c8c8, #fefefe ); 
+           border-radius: 15px;
+    
+}
+
+#slider{
+         width: auto;
+         background: url(img/bg.jpg) center no-repeat;
+          background-size: cover
+}  
+      .img-slider{  
+          max-width: 100%;
+          margin: 0 auto;
+          box-sizing: border-box;
+          padding: 25px 15px 25px 15px;
+}
+.img-monitor{
+   width: 100%;
+  height: auto;
+}
+
+     
+#button{
+     margin: 10px 0 10px 0;
+   
+     }
+     .button{
+          border-bottom: 2px solid #fff;
+     }
+     .button-span{
+           font: 36px Arial;
+         margin-top: 10px;
+     }
+     .block-button{
+         box-sizing: border-box;
+          background: linear-gradient(to top, #a8bbef, #2e549f );
+         border: 5px solid #ffffff;
+         border-radius: 15px;
+         margin-bottom: 10px;
+   
+     }
+     .button-img{
+       padding: 25px 0 25px 20px;
+     }
+     .button-a{
+         padding: 10px 25px;
+         font: 25px Myriad Pro;
+         float: right;
+         color: #fff;
+         text-transform: uppercase;
+     }
+     .button-sp{
+         font: 35px Myriad Pro;
+     }
+#blocks{
+           margin:35px 0 35px 0;
+       }
+        
+       .block{
+            max-width: 100%;
+           margin: 0 auto;
+           border-radius: 5px;
+           background: #fff;
+           text-align: center;
+           margin-right: 2%;
+           width:23%;
+           margin-top: 5px;
+           box-sizing: border-box;
+       }
+       .block:last-child{
+           margin-right:0;
+       }
+       .block-img{
+           padding: 5%;
+           width: 90%;
+       }
+       .block-h{
+           font: 20px Arial;
+           font-weight: bold;   
+       }
+       .block-p{
+           font: 14px Arial;
+           color: #545668;
+           text-align: left;
+           margin-left: 20px;
+       }
+       .block-a{
+           display: block;
+           width: 110px;
+           color: #2945c0;
+           margin: 10%;
+           background: linear-gradient(to top, #dadfeb, #fefefe ); 
+           border-radius: 15px;
+           border: 1px solid #c6ccdc;
+            padding: 5px 5px;
+       }
+#content{
+    
+        }
+        .content{
+           overflow: hidden;
+           margin-bottom: 50px;
+        }
+        
+        .content-left,.content-middle{
+            width: 23%;
+            margin-right: 2%;
+        }
+        .content-left-one{
+            margin-bottom: 30px;
+                }
+                .content-right{
+            width: 50%;
+        }
+        .content-left-h{
+            margin-top: 13px;
+            font: 15px Arial;
+            font-weight: bold;
+            color: #132445;
+            margin-left: 5px;
+        }
+        .content-left-p{
+            margin-top: 30px;
+             font: 13px Arial; 
+            color: #132445;
+        }
+        .content-right-p{
+               font: 13px/24px Arial; 
+            color: #132445;
+        }
+        .content-right-a{
+            text-decoration: underline;
+        }
+#footer{
+           background: #565f81;
+           padding: 25px 0 55px 0;
+       }
+        .footer-link{
+           margin-bottom: 10px;
+       }
+        .footer-link li {
+                   float:left;
+                padding-right: 10px;
+              }
+         .footer-link li a{
+                  display: block;
+                  font: 13px Arial;
+                   color: #dadfeb;
+              }
+       .footer-span{
+           font: 12px Arial;
+           color: #9fa8bd;
+       }
+       .social li{
+           float: left;
+           padding-left: 15px;
+       }
+       .social-span{
+           margin-top:10px;
+           font: 13px Arial;
+           color: #dadfeb;
+       }
+@media screen and (max-width:940px){
+    .button-span{
+           font: 28px Arial;
+     }
+    .button-sp{
+         font: 23px Myriad Pro;
+     }
+}
+@media screen and (max-width:740px){
+    .button-span{
+           font: 22px Arial;
+     }
+    .button-a{
+        padding: 15px 20px;
+         font: 18px Myriad Pro;
+    }
+    .button-sp{
+         font: 20px Myriad Pro;
+     }
+    .logo{
+        margin: 15px 0 0 0;
+        text-align: center;
+        float: none;
+    }
+    .header-link{
+        float: none;
+        margin-left: 15%;
+    }
+    .block{
+        width: 40%;
+       margin: 10px 2% 15px 3%;
+    }
+}
+@media screen and (max-width:610px){
+    .header-link li a{
+        padding: 4px 10px;
+    }
+    .button-img{
+       padding: 10px 0 10px 10px;
+     }
+     .button-span{
+           font: 16px Arial;
+     }
+    .button-a{
+        padding: 10px 15px;
+         font: 14px Myriad Pro;
+    }
+    .button-sp{
+         font: 16px Myriad Pro;
+     }
+    .block{
+        width: 40%;
+       margin: 10px 2% 15px 3%;
+    }
+    .content-left,.content-middle{
+        width: 45%;
+        font: 10px;
+    }
+.content-right{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+    .content-left{
+        margin-left: 2%;
+    }
+    .header-link{
+         margin-left:0;
+    }
+}
+
+

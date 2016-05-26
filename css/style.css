@@ -21,32 +21,41 @@ background: #dadfeb;}
 .text-left{text-align: left;}
 
 #wrapper{
+    max-width: 1600px;
    }
     .container{
-        max-width: 980px;
+        max-width: 960px;
         margin: 0 auto;
-        padding: 0 10px;
+ 
     }
 #header{
      background: linear-gradient(to top, #ecf1fd, #c6cfe4 );    
        }
        .logo{
-           margin: 15px 0 15px 0;
-           font: 45px Arial;
+           letter-spacing: -1px;
+           display: inline-block;
+           width: 250px;
+           margin: 22px 0 15px 0;
+           font: 45px/22px Arial;
            font-weight: bold;
            color: #39579b;
        }
        .lgsmall{
+           letter-spacing: 0px;
            font: 14px Arial;
            color: #3d5ba4;
        }
        .top-menu{
            float: right;
-           margin-top: 35px;
+           margin-top: 31px;
        }
           .top-menu li {
                 float:left;
+              margin-right: 9px;
        }
+.top-menu :last-child{
+    margin-right: 0px;
+}
        .top-menu li a{
            display: block;
            font: 13px Arial;
@@ -64,13 +73,14 @@ background: #dadfeb;}
 
 #slider{
          background: url(../img/bg.jpg) center no-repeat;
-          background-size: cover
+         height: 500px;
+         
 }  
       .top-slider{  
           max-width: 100%;
           margin: 0 auto;
           box-sizing: border-box;
-          padding: 25px 0 25px 0;
+          padding: 25px 15px 25px 15px;
 }
 .slider-img{
    width: 100%;
@@ -79,114 +89,137 @@ background: #dadfeb;}
 
      
 #add-info{
-     margin: 10px 0 10px 0;
+     margin: 10px 0 20px 0;
      }
      #add-info .container{
+         
           border-bottom: 2px solid #fff;
      }
      .button-span{
          display: inline-block;
-         width: 60%;
-           font: 36px Arial;
-         margin-top: 10px;
+         width: 62%;
+           font: 36px/36px Arial;
+         margin-top: 12px;
      }
      .block-button{
          box-sizing: border-box;
           background: linear-gradient(to top, #a8bbef, #2e549f );
          border: 5px solid #ffffff;
          border-radius: 15px;
-         margin-bottom: 10px;
+         margin-bottom: 19px;
+         height: 95px;
      }
      .button-img{
        padding: 25px 0 25px 20px;
      }
      .button-a{
-         padding: 10px 25px;
+         word-spacing: 1px;
+         padding: 16px 25px;
          font: 25px Myriad Pro;
          float: right;
          color: #fff;
          text-transform: uppercase;
      }
      .button-sp{
-         font: 35px Myriad Pro;
+         font: 35px/35px Myriad Pro;
      }
 #blocks{
-           margin:35px 0 35px 0;
+           margin:35px 0 28px 0;
        }
-        
+.heading :last-child{
+    margin-right: 0;
+}
        .block{
-            max-width: 100%;
+           float: left;
+           display: inline-block;
            margin: 0 auto;
            border-radius: 5px;
            background: #fff;
            text-align: center;
-           margin-right: 2%;
-           width:23%;
+           margin-right: 3%;
+           width:22.75%;
+           height: 315px;
            margin-top: 5px;
            box-sizing: border-box;
        }
-       .block:last-child{
+       #block :last-child{
            margin-right:0;
        }
        .block-img{
-           padding: 5%;
-           width: 90%;
+           padding: 10%;
+           width: 80%;
+           padding-bottom: 13px;
        }
        .block-h{
            font: 20px Arial;
            font-weight: bold;   
        }
        .block-p{
-           font: 14px Arial;
+           font-size: 13px;
            color: #545668;
            text-align: left;
            margin-left: 20px;
        }
        .block-a{
            display: block;
-           width: 110px;
+           width: 100px;
+           font-size: 13px;
            color: #2945c0;
-           margin: 10%;
+           margin-left: 9%;
+           margin-top:13px;
            background: linear-gradient(to top, #dadfeb, #fefefe ); 
            border-radius: 15px;
            border: 1px solid #c6ccdc;
-            padding: 5px 5px;
+            padding: 3px 5px;
        }
 #content{
-    
+
         }
         .content{
            overflow: hidden;
-           margin-bottom: 50px;
+           margin-bottom: 36px;
         }
         
-        .content-left,.content-middle{
-            width: 23%;
-            margin-right: 2%;
+        .content-left{
+            width: 21%;
+            margin-right: 5%;
         }
+.content-middle{
+     width: 21%;
+    margin-right: 4%;
+}
         .content-left-one{
-            margin-bottom: 30px;
+            margin-bottom: 28px;
                 }
+
                 .content-right{
-            width: 50%;
+            width: 48%;
+                    margin-left: 6px;
         }
-        .content-left-h{
-            margin-top: 13px;
+        .content-left-h,.content-right-h{
+            margin-top: 19px;
             font: 15px Arial;
             font-weight: bold;
             color: #132445;
-            margin-left: 5px;
+            margin-left: 9px;
         }
+.content-right-h{
+    margin-top: 8px;
+    margin-left: 0px;
+}
         .content-left-p{
-            margin-top: 30px;
+            margin-top: 37px;
              font: 13px Arial; 
             color: #132445;
         }
         .content-right-p{
                font: 13px/24px Arial; 
             color: #132445;
+            margin-top: 7px;
         }
         .content-right-a{
+            display: block;
+            margin-top: 7px;
             text-decoration: underline;
         }
 #footer{
@@ -194,7 +227,7 @@ background: #dadfeb;}
            padding: 25px 0 55px 0;
        }
         .footer-link{
-           margin-bottom: 10px;
+           margin-bottom: 5px;
        }
         .footer-link li {
                    float:left;
@@ -214,7 +247,8 @@ background: #dadfeb;}
            padding-left: 15px;
        }
        .social-span{
-           margin-top:10px;
+           margin-right: 9px;
+           margin-top:8px;
            font: 13px Arial;
            color: #dadfeb;
        }
